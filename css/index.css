@@ -63,3 +63,9 @@ body{
 .banner-img{
     width: 85%;   
 }
+.banner-content{
+    padding-left: 30px;
+    display: grid;
+    grid-template-areas: "header ."
+    "latest insta";
+}
