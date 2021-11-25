@@ -91,3 +91,8 @@ body{
 .banner-insta-container{
     grid-area: insta;
 }
+.banner-content-img-container{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
