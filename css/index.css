@@ -53,3 +53,10 @@ body{
 .header-social-icon:hover{
     color: black;
 }
+
+.banner{
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    align-items: end;
+    padding: 32px;    
+}
