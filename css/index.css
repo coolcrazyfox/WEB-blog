@@ -88,3 +88,6 @@ body{
 .banner-latest-container{
     grid-area: latest;
 }
+.banner-insta-container{
+    grid-area: insta;
+}
