@@ -42,3 +42,34 @@
         font-size: 13px;
     }
 }
+@media screen  and (max-width: 600px){
+    .header-container{
+        grid-template-columns: 1fr 5fr;
+        padding: 30px 0;
+    }
+    .banner{
+        grid-template-columns: 1fr;
+    }
+    .banner-content{
+        padding-left: 0;
+        grid-template-areas: "header"
+        "latest"
+        "insta";
+        grid-gap: 8px 0
+    }
+    .banner-content-header{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-latest{
+        width: 100%;
+    }
+    .banner-bottom-text{
+        bottom: 20px;
+        left: 20px;
+        font-size: 28px;
+    }
+}
