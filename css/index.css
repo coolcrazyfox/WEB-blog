@@ -69,3 +69,7 @@ body{
     grid-template-areas: "header ."
     "latest insta";
 }
+.banner-img-contaener{
+    display: flex;
+    align-items: flex-end;
+}
