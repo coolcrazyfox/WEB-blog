@@ -22,4 +22,11 @@
         grid-template-columns: 1fr 11fr;
         padding: 40px 0;
     }
+    .banner-latest{
+        width: 160px;        
+    }
+    .banner-content-header{
+        font-size: 18px;
+        width: 180px;
+    }
 }
