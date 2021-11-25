@@ -82,3 +82,6 @@ body{
     text-transform: uppercase;
     grid-area: header;
 }
+.banner-latest{
+    width: 230px;
+}
